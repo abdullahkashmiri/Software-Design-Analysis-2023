@@ -1,0 +1,16 @@
+Use Case Name: Register Courses
+Scope: Course Registration System
+User:  Student, Registrar
+Precondition:  Student is logged into the Course Registration System and has selected a term or semester for course registration.
+
+Basic Scenario:
+1. Student selects courses.
+2. System checks seat availability.
+3. If seats available, student registered.
+4. If no seats, student can waitlist or select alternatives.
+5. System confirms registration.
+6. Student reviews summary or logs out.
+
+Alternatives:
+1. Waitlist or select alternatives when seats are unavailable, and prevent registration if prerequisites are not met.
+2. Provide a cancel registration option and handle login failure, and system errors.
